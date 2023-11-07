@@ -14,20 +14,20 @@ export function Questions() {
                 <AccordionItem value="item-1">
                     <AccordionTrigger>Asab kasalliklarining kelib chiqish sabablari?</AccordionTrigger>
                     <AccordionContent className="p-4">
-                        Bu kasalliklar kelib chiqishiga sabablar juda ko&apos;p. Bular ichki va tashqi omillar ta'sirida yuzaga chiqadi.
+                        Bu kasalliklar kelib chiqishiga sabablar juda ko&apos;p. Bular ichki va tashqi omillar ta&apos;sirida yuzaga chiqadi.
                         <ul>
                             <br />
                             <li>
                                 Ichki sabablarni ko&apos;rib chiqadigan bo&apos;lsak, turli xil somatik, nevrologik kasalliklar bilan og&apos;rish, bosh miyaning o&apos;tkir qon aylanishi buzilishi, bosh miya jarohatlarini surunkali nerv mushak o&apos;tkazuvchanligi buzilishi kasalliklari, kasallikning uzoq davom etishi, turli xil preparatlarni uzoq davr ichish kabi holatlar natijasida bemorlarda asab tizimi astinezatsiyasi yuzaga kelishi mumkin.
                             </li>
                             <li>
-                                Endi tashqi faktorlarga keladigan bo&apos;lsak, zamona shiddati, noto&apos;g&apos;ri yashash tarzi, kunning noto&apos;g&apos;ri tashkil qilinishi, ya'ni ish va dam olishning me'yorlashmagani, uyqusizlik, jismoniy imkoniyatlarni hisobga olmay organizmga beriladigan turli zo&apos;riqishlar, vaqtida ovqatlanmaslik, shuningdek noto&apos;g&apos;ri ovqatlanish sabab bo&apos;lishi mumkin.
+                                Endi tashqi faktorlarga keladigan bo&apos;lsak, zamona shiddati, noto&apos;g&apos;ri yashash tarzi, kunning noto&apos;g&apos;ri tashkil qilinishi, ya&apos;ni ish va dam olishning me&apos;yorlashmagani, uyqusizlik, jismoniy imkoniyatlarni hisobga olmay organizmga beriladigan turli zo&apos;riqishlar, vaqtida ovqatlanmaslik, shuningdek noto&apos;g&apos;ri ovqatlanish sabab bo&apos;lishi mumkin.
                             </li>
                             <li>
                                 Bundan tashqari, ish joylarining to&apos;g&apos;ri tashkil qilinmasligi: yorug&apos;likning yetarli bo&apos;lmasligi, shovqin, binoning havo sirkulyatsiyasi noto&apos;g&apos;ri bo&apos;lgan dim xonalarda uzoq muddat bir xil holatda o&apos;tirib ishlash ham asab tizimi astenizatsiyasiga olib kelishi mumkin.
                             </li>
                             <li>
-                                Bu holatning o&apos;smir yoshdagi bolalarda uchrashiga sabab oilaviy muhitning ta'siri ham bo&apos;lishi mumkin. Oilada yo&apos;qotishlar bo&apos;lganda yoki doimiy qattiq nazorat bo&apos;lishi, bolada erkinlik va o&apos;ziga baho berish hissining bo&apos;g&apos;ib qo&apos;yilgan holatlar ham asab tizimi zo&apos;riqishiga olib keladi.
+                                Bu holatning o&apos;smir yoshdagi bolalarda uchrashiga sabab oilaviy muhitning ta&apos;siri ham bo&apos;lishi mumkin. Oilada yo&apos;qotishlar bo&apos;lganda yoki doimiy qattiq nazorat bo&apos;lishi, bolada erkinlik va o&apos;ziga baho berish hissining bo&apos;g&apos;ib qo&apos;yilgan holatlar ham asab tizimi zo&apos;riqishiga olib keladi.
                             </li>
                         </ul>
 

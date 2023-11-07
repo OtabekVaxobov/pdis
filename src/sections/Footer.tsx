@@ -70,7 +70,7 @@ export function Footer2() {
                         </ul>
                         <div className="flex flex-col ">
                             <p className="text-white">
-                                Amira Temur ko'chasi, Guliston, Uzbekistan
+                                Amira Temur ko&apos;chasi, Guliston, Uzbekistan
                             </p>
                             ____________________
                             <p className="text-white">
