@@ -15,9 +15,9 @@ import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/
 
 
 
-export function Gallery() {
+function Gallery() {
   return (
-    <section>
+    <div>
       <div id="About" className="px-3 md:lg:xl:px-40 sm:p-0  border-t border-b py-20 bg-opacity-10">
         <div className="grid grid-cols-1 md:lg:xl:grid-cols-3 sm:grid-cols-2 group ">
           <div
@@ -29,8 +29,7 @@ export function Gallery() {
                 d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
             </svg></span>
             <p className="text-xl font-medium text-slate-700 mt-3">Довольные пациенты</p>
-            {/* <p className=" hidden sm:flex mt-2 text-sm text-slate-500">Team BrainEdge education is a bunch of highly focused, energetic
-                            set of people.</p> */}
+
           </div>
 
           <div
@@ -46,7 +45,7 @@ export function Gallery() {
             </svg></span>
             <p className="text-xl font-medium text-slate-700 mt-3">
               Квалифицированные специалисты</p>
-            {/* <p className="  hidden sm:flex mt-2 text-sm text-slate-500">Know where you stand and what next to do to succeed .</p> */}
+
           </div>
 
           <div className="p-10 flex flex-col items-center text-center group   md:lg:xl:border-b hover:bg-slate-50 cursor-pointer">
@@ -57,8 +56,7 @@ export function Gallery() {
                 d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
             </svg></span>
             <p className="text-xl font-medium text-slate-700 mt-3">Обслуживание иностранных граждан</p>
-            {/* <p className=" hidden sm:flex mt-2 text-sm text-slate-500">Professional Advice for higher education abroad and select the
-                            top institutions worldwide.</p> */}
+
           </div>
 
 
@@ -69,7 +67,7 @@ export function Gallery() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
             </svg></span>
             <p className="text-xl font-medium text-slate-700 mt-3">Опыт работы</p>
-            {/* <p className=" hidden sm:flex mt-2 text-sm text-slate-500">Yet another year ! Yet another jewel in our crown!</p> */}
+
           </div>
 
           <div className="p-10 flex flex-col items-center text-center group    md:lg:xl:border-r hover:bg-slate-50 cursor-pointer">
@@ -81,8 +79,7 @@ export function Gallery() {
             </svg></span>
             <p className="text-xl font-medium text-slate-700 mt-3">
               Ответственный подход</p>
-            {/* <p className=" hidden sm:flex mt-2 text-sm text-slate-500">Get Topic-Wise Tests, Section- Wise and mock tests for your
-                            preparation.</p> */}
+
           </div>
 
           <div className="p-10 flex flex-col items-center text-center group     hover:bg-slate-50 cursor-pointer">
@@ -103,7 +100,7 @@ export function Gallery() {
 
         </div>
       </div>
-    </section>
+    </div>
   )
 }
 
