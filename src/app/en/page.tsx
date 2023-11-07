@@ -109,7 +109,7 @@ function Gallery3() {
   return (
     <section>
       <Suspense>
-        <h2 id='rahbariyat' className="text-3xl py-8">Doctors</h2>
+        <h2 id='rahbariyat' className="text-3xl py-8 flex justify-center">Doctors</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-4 max-w-[720px]">
           <div>
             <Image className="hover:opacity-75" src={Direktor} alt={""} width={350} height={350} />
@@ -295,7 +295,7 @@ function Header() {
             </div>
 
             <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
-              qwe
+
               <li className="border-b border-gray-400 my-8 uppercase">
 
                 <a onClick={() => setIsNavOpen(false)} href="#about">ABOUT US</a>

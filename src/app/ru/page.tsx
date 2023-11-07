@@ -109,7 +109,7 @@ function Gallery3() {
   return (
     <section>
       <Suspense>
-        <h2 id='rahbariyat' className="text-3xl py-8">Руководство</h2>
+        <h2 id='rahbariyat' className="text-3xl py-8 flex justify-center">Руководство</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-4 max-w-[720px]">
           <div>
             <Image className="hover:opacity-75" src={Direktor} alt={""} width={350} height={350} />
