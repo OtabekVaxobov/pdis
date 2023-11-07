@@ -244,7 +244,7 @@ function Footer() {
   )
 }
 
-export function Header() {
+function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
   return (
@@ -376,7 +376,7 @@ function About() {
   )
 }
 
-export function Questions() {
+function Questions() {
   return (
     <div className="flex flex-col justify-center pt-8">
       <p className="flex justify-center">Часто задаваемые вопросы</p>
