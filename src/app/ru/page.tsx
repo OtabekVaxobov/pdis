@@ -17,7 +17,7 @@ import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/
 
 export function Gallery() {
   return (
-    <>
+    <section>
       <div id="About" className="px-3 md:lg:xl:px-40 sm:p-0  border-t border-b py-20 bg-opacity-10">
         <div className="grid grid-cols-1 md:lg:xl:grid-cols-3 sm:grid-cols-2 group ">
           <div
@@ -102,13 +102,14 @@ export function Gallery() {
 
 
         </div>
-      </div></>
+      </div>
+    </section>
   )
 }
 
 function Gallery3() {
   return (
-    <>
+    <section>
       <Suspense>
         <h2 id='rahbariyat' className="text-3xl py-8">Руководство</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-4 max-w-[720px]">
@@ -119,7 +120,7 @@ function Gallery3() {
           </div>
         </div>
       </Suspense>
-    </>
+    </section>
   )
 }
 
@@ -192,10 +193,8 @@ export default function Home() {
 
 function Footer() {
   return (
-    <>
+    <section>
       <div id='footer' className="flex items-center justify-center py-8 ">
-
-
         <div className="mapouter"><div className="gmap_canvas">
           <iframe src="https://maps.google.com/maps?q=40%C2%B029'33.0%22N%2068%C2%B045'00.1%22E%C2%A0&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" style={{ width: 790, height: 500 }}></iframe>
           <style>{`
@@ -205,9 +204,7 @@ function Footer() {
 
           <style>{`.gmap_canvas{overflow:hidden;height:400px;min-width:375px}.gmap_canvas iframe{position:relative;z-index:2}`}</style></div></div>
 
-      </div>
-
-      <footer className="p-4 bg-white sm:p-6 dark:bg-gray-800 pt-8 bg-gradient-to-r from-sky-500 to-indigo-500">
+      </div><footer className="p-4 bg-white sm:p-6 dark:bg-gray-800 pt-8 bg-gradient-to-r from-sky-500 to-indigo-500">
         <div className="mx-auto max-w-screen-xl">
           <div className="md:flex md:justify-center flex-col ">
 
@@ -245,7 +242,8 @@ function Footer() {
           </div>
         </div>
       </footer>
-    </>
+    </section>
+
   )
 }
 
