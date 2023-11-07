@@ -29,7 +29,7 @@ function Gallery() {
               <path strokeLinecap="round" strokeLinejoin="round"
                 d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
             </svg></span>
-            <p className="text-xl font-medium text-slate-700 mt-3">Довольные пациенты</p>
+            <p className="text-xl font-medium text-slate-700 mt-3">Satisfied patients</p>
 
           </div>
 
@@ -45,7 +45,7 @@ function Gallery() {
               <polyline points="10 9 9 9 8 9"></polyline>
             </svg></span>
             <p className="text-xl font-medium text-slate-700 mt-3">
-              Квалифицированные специалисты</p>
+              Qualified specialists</p>
 
           </div>
 
@@ -56,7 +56,7 @@ function Gallery() {
               <path strokeLinecap="round" strokeLinejoin="round"
                 d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
             </svg></span>
-            <p className="text-xl font-medium text-slate-700 mt-3">Обслуживание иностранных граждан</p>
+            <p className="text-xl font-medium text-slate-700 mt-3">Service for foreign citizens</p>
 
           </div>
 
@@ -67,7 +67,7 @@ function Gallery() {
               stroke="currentColor" strokeWidth="1.5">
               <path strokeLinecap="round" strokeLinejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
             </svg></span>
-            <p className="text-xl font-medium text-slate-700 mt-3">Опыт работы</p>
+            <p className="text-xl font-medium text-slate-700 mt-3">Experience</p>
 
           </div>
 
@@ -79,7 +79,7 @@ function Gallery() {
                 d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
             </svg></span>
             <p className="text-xl font-medium text-slate-700 mt-3">
-              Ответственный подход</p>
+              Responsible approach</p>
 
           </div>
 
@@ -91,7 +91,7 @@ function Gallery() {
                 d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
             </svg></span>
             <p className="text-xl font-medium text-slate-700 mt-3">
-              Безопасность</p>
+              Safety</p>
             <p className="  hidden sm:flex mt-2 text-sm text-slate-500">
             </p>
           </div>
@@ -109,12 +109,12 @@ function Gallery3() {
   return (
     <section>
       <Suspense>
-        <h2 id='rahbariyat' className="text-3xl py-8">Руководство</h2>
+        <h2 id='rahbariyat' className="text-3xl py-8">Doctors</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-4 max-w-[720px]">
           <div>
             <Image className="hover:opacity-75" src={Direktor} alt={""} width={350} height={350} />
-            <h3 className=" font-semibold">Хашимов  Хусан Ачилович</h3>
-            <p className="text-gray-500">Главный врач</p>
+            <h3 className=" font-semibold"> Khashimov Khusan Achilovich</h3>
+            <p className="text-gray-500">Chief physician</p>
           </div>
         </div>
       </Suspense>
@@ -134,17 +134,17 @@ export default function Home() {
 
       <div className="flex flex-col w-full bg-gradient-to-r from-sky-500 to-indigo-500 p-4 py-20 sm:px-20 sm:flex-row justify-between items-center">
         <p className=" text-white">
-          <span className="text-4xl font-medium">Хотите связаться c нами?</span>
+          <span className="text-4xl font-medium">Want to contact us?</span>
           <br />
-          <span className="text-lg">Свяжитесь c нами сейчас! </span>
+          <span className="text-lg">Contact us now!</span>
         </p>
         <div className="font-medium  pt-4  dark:text-white">
 
           <div className="text-white grid gap-4">
             <Image className="hover:opacity-75" src={Direktor} alt={""} width={300} height={300} />
-            <h3 className=" font-semibold">Хашимов  Хусан Ачилович</h3>
-            <p className="text-gray-300">Главный врач</p>
-            <h4 className="font-medium  pt-4 leading-none"> Приемная </h4>
+            <h3 className=" font-semibold">Khashimov Khusan Achilovich</h3>
+            <p className="text-gray-300">Chief physician</p>
+            <h4 className="font-medium  pt-4 leading-none"> Reception </h4>
             <p className=" text-white text-sm text-muted-foreground">
               67-236-32-64
             </p>
@@ -165,20 +165,20 @@ export default function Home() {
         <Gallery3 />
 
 
-        <h2 className=" pt-8 text-3xl">Нормативные документы</h2>
+        <h2 className=" pt-8 text-3xl">Regulations</h2>
         <section id="hujjatlar" className="flex flex-row justify-center gap-4 py-8">
-          <Link target="_blank" rel="noopener noreferrer" download href='https://drive.google.com/file/d/1PQ7vPT-yOfkKlScrjQmA7iFgQb1m21eW/view?usp=drive_link' title="Решение организации">
-            <Image src={Qarori} alt={"Решение организации"} width={100} height={100} />
+          <Link target="_blank" rel="noopener noreferrer" download href='https://drive.google.com/file/d/1PQ7vPT-yOfkKlScrjQmA7iFgQb1m21eW/view?usp=drive_link' title="Organization decision">
+            <Image src={Qarori} alt={"Organization decision"} width={100} height={100} />
           </Link>
-          <Link target="_blank" rel="noopener noreferrer" download href='https://drive.google.com/file/d/12Z2kfdG2og9AUIasacLEl9wPpxjmY73T/view?usp=drive_link' title="документ из mygov">
-            <Image src={Narxlar} alt={"документ из mygov"} width={120} height={120} />
+          <Link target="_blank" rel="noopener noreferrer" download href='https://drive.google.com/file/d/12Z2kfdG2og9AUIasacLEl9wPpxjmY73T/view?usp=drive_link' title="document from mygov">
+            <Image src={Narxlar} alt={"document from mygov"} width={120} height={120} />
           </Link>
 
-          <Link target="_blank" rel="noopener noreferrer" download href='https://drive.google.com/file/d/1-OIHHR1ndPLhSxA6L3W7DfKx3RC9qn0_/view?usp=drive_link' title="Устав организации">
-            <Image src={Nizomi} alt={"Устав организации"} width={120} height={120} />
+          <Link target="_blank" rel="noopener noreferrer" download href='https://drive.google.com/file/d/1-OIHHR1ndPLhSxA6L3W7DfKx3RC9qn0_/view?usp=drive_link' title="Articles of association">
+            <Image src={Nizomi} alt={"Articles of association"} width={120} height={120} />
           </Link>
-          <Link target="_blank" rel="noopener noreferrer" download href='https://drive.google.com/file/d/1Ii2r9ln4XR-BK8rrGBXRCkigleFLV5XX/view?usp=drive_link' title="Кадастр организации">
-            <Image src={Klinik} alt={"Кадастр организации"} width={120} height={120} />
+          <Link target="_blank" rel="noopener noreferrer" download href='https://drive.google.com/file/d/1Ii2r9ln4XR-BK8rrGBXRCkigleFLV5XX/view?usp=drive_link' title="Organization cadastre">
+            <Image src={Klinik} alt={"Organization cadastre"} width={120} height={120} />
           </Link>
         </section>
 
@@ -209,32 +209,32 @@ function Footer() {
 
             <ul className="flex justify-end  items-end mb-6 text-sm font-medium text-white sm:mb-0 ">
               <li>
-                <a href="#about" className="mr-4 hover:underline md:mr-6 ">О нас</a>
+                <a href="#about" className="mr-4 hover:underline md:mr-6 ">About Us</a>
               </li>
               <li>
-                <a href="#rahbariyat" className="mr-4 hover:underline md:mr-6">Руководство</a>
+                <a href="#rahbariyat" className="mr-4 hover:underline md:mr-6">Doctors</a>
               </li>
               <li>
-                <a href="#hujjatlar" className="mr-4 hover:underline md:mr-6 ">Нормативные документы</a>
+                <a href="#hujjatlar" className="mr-4 hover:underline md:mr-6 ">Regulations</a>
               </li>
 
             </ul>
             <div className="flex flex-col ">
               <p className="text-white">
-                Улица Амира Темура, Гулистан, Узбекистан
+                Amir Temur Street, Gulistan, Uzbekistan
 
               </p>
 
               <p className="text-white">
 
-                Приемная 67-310-41-53
+                Reception 67-310-41-53
               </p>
             </div>
 
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
           <div className="flex items-center justify-center">
-            <span className="text-sm text-white text-center ">&copy; {new Date().getFullYear()} Все права защищены.
+            <span className="text-sm text-white text-center ">&copy; {new Date().getFullYear()}   All rights reserved.
             </span>
 
           </div>
@@ -256,7 +256,7 @@ function Header() {
 
         </a>
         <div className="font-sans font-semibold text-3xl">
-          <h1>Сырдарьинский областной диспансер нервных и психических болезней</h1>
+          <h1>Syrdarya Regional Dispensary for Nervous and Mental Diseases</h1>
         </div>
 
 
@@ -293,15 +293,18 @@ function Header() {
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </div>
+
             <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
+              qwe
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a onClick={() => setIsNavOpen(false)} href="#about">O нас</a>
+
+                <a onClick={() => setIsNavOpen(false)} href="#about">ABOUT US</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a onClick={() => setIsNavOpen(false)} href="#hujjatlar">Открытые данные</a>
+                <a onClick={() => setIsNavOpen(false)} href="#hujjatlar">OPEN DATA</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a onClick={() => setIsNavOpen(false)} href="#footer">Контакт</a>
+                <a onClick={() => setIsNavOpen(false)} href="#footer">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -309,13 +312,13 @@ function Header() {
 
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex ">
           <li>
-            <a href="#about">O нас</a>
+            <a href="#about">ABOUT US</a>
           </li>
           <li>
-            <a href="#footer">Адрес</a>
+            <a href="#footer">Adress</a>
           </li>
           <li>
-            <a href="#hujjatlar">Документы</a>
+            <a href="#hujjatlar">Documentation</a>
           </li>
           <li className="px-4">
             <ModeToggle />
@@ -352,24 +355,22 @@ function About() {
   return (
 
     <div id="about" className="flex flex-col justify-center p-8">
-      <h2 className=" text-2xl text-blue-600">О БОЛЬНИЦЕ</h2>
-      <h1 className=" text-xl">Сырдарьинский областной диспансер нервных и психических болезней
+      <h2 className=" text-2xl text-blue-600">ABOUT THE HOSPITAL</h2>
+      <h1 className=" text-xl">Syrdarya Regional Dispensary for Nervous and Mental Diseases
       </h1>
       <ul className="text-gray-500 content-center">
         <li>
-          За время работы нашей больницы мы постоянно развиваемся и совершенствуем все направления нашей деятельности.
+          This allows us to maintain leadership and maximize the satisfaction of our patients and what we provide. allows us to ensure high quality of services provided.
         </li>
         <li>
-          Это позволяет нам сохранять лидерство и максимально удовлетворять наших пациентов,а также то, что мы предоставляем.
-          позволяет обеспечить высокое качество предоставляемых услуг.
+          In order to assess the quality of work of medical hospitals and centers in Uzbekistan, new ones are being developed in the development process.
         </li>
         <li>
-          В целях оценки качества работы медицинских больниц и центров Узбекистана в процессе развития разрабатываются новые,
-          Мы формируем современные, высокие стандарты.
+          We are forming modern, high standards.
+          The level of services we provide is similar to the leading hospitals in the world and is as close as possible to them.
         </li>
         <li>
-          Уровень предоставляемых нами услуг аналогичен ведущим больницам мира и максимально приближен к ним.
-          Мы стремимся предоставить. Совершенство не знает границ... Мы считаем это постоянным стимулом к ​​развитию и главной целью нашей работы.
+          We strive to provide. Perfection knows no bounds... We consider this a constant incentive for development and the main goal of our work.
         </li>
       </ul>
     </div>
@@ -380,25 +381,25 @@ function About() {
 function Questions() {
   return (
     <div className="flex flex-col justify-center pt-8">
-      <p className="flex justify-center">Часто задаваемые вопросы</p>
+      <p className="flex justify-center">FAQ</p>
       <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
-          <AccordionTrigger>Причины нервных заболеваний?</AccordionTrigger>
+          <AccordionTrigger>Causes of nervous diseases?</AccordionTrigger>
           <AccordionContent className="p-4">
-            Причин возникновения этих заболеваний множество. Они появляются под влиянием внутренних и внешних факторов.
+            There are many reasons for the occurrence of these diseases. They appear under the influence of internal and external factors.
             <ul>
               <br />
               <li>
-                Если рассматривать внутренние причины, то страдающие различными соматическими и неврологическими заболеваниями, острыми нарушениями кровообращения головного мозга, черепно-мозговыми травмами, вызванными хроническими нарушениями нервно-мышечной проводимости, длительным течением заболевания, приемом различных лекарственных препаратов в результате длительного употребления больных может наблюдаться астения нервной системы.
+                If we consider internal causes, then those suffering from various somatic and neurological diseases, acute cerebral circulatory disorders, traumatic brain injuries caused by chronic disorders of neuromuscular conduction, long-term course of the disease, taking various medications as a result of prolonged use of patients may experience asthenia of the nervous system.
               </li>
               <li>
-                Теперь, если перейти к внешним факторам, интенсивности времени, неправильному образу жизни, неправильной организации дня, т. е. отсутствию нормализации труда и отдыха, недостатку сна, различным нагрузкам, даваемым организму без принятия учитывать физические возможности.Это может быть вызвано тягой к еде, несвоевременным приемом пищи, а также неправильным питанием.
+                Now, if we move on to external factors, time intensity, improper lifestyle, improper organization of the day, i.e. lack of normalization of work and rest, lack of sleep, various stresses given to the body without taking into account physical capabilities. This can be caused by cravings for food , untimely eating, as well as poor nutrition
               </li>
               <li>
-                Кроме того, к астении нервной системы может привести и неправильная организация рабочих мест: недостаточное освещение, шум, неправильная циркуляция воздуха в здании, длительное сидение в одном и том же положении и работа во влажных помещениях.
+                In addition, improper organization of workplaces can also lead to asthenia of the nervous system: insufficient lighting, noise, improper air circulation in the building, prolonged sitting in the same position and work in damp rooms.
               </li>
               <li>
-                Причиной возникновения этого состояния у детей подросткового возраста может быть влияние семейного окружения. При потерях в семье или постоянном жестком контроле ситуации, когда у ребенка подавляется чувство свободы и самооценка, также приводят к напряжению нервной системы.
+                The cause of this condition in adolescent children may be the influence of the family environment. With losses in the family or constant tight control, situations where the child’s sense of freedom and self-esteem are suppressed also lead to tension in the nervous system.
               </li>
             </ul>
 
@@ -408,14 +409,14 @@ function Questions() {
       </Accordion>
       <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
-          <AccordionTrigger>Профилактика нервных заболеваний</AccordionTrigger>
+          <AccordionTrigger>Prevention of nervous diseases</AccordionTrigger>
           <AccordionContent className="p-4">
             <ul>
               <li>
-                Известно, что лучше предотвратить заболевание, чем лечить его. Поэтому важнейшим методом лечения является профилактика стресса нервной системы, астиневротического синдрома и депрессии.
+                It is known that it is better to prevent a disease than to treat it. Therefore, the most important treatment method is the prevention of stress in the nervous system, astyneurotic syndrome and depression.
               </li>
               <li>
-                Для этого прежде всего необходимо наладить правильный образ жизни. Правильное распределение труда и отдыха, занятия спортом, своевременное питание повышают устойчивость к этому заболеванию.
+                To do this, first of all, you need to establish the right lifestyle. Proper distribution of work and rest, exercise, and timely nutrition increase resistance to this disease.
               </li>
             </ul>
 
@@ -426,14 +427,14 @@ function Questions() {
 
       <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
-          <AccordionTrigger>Что такое НЕВРОЗ?</AccordionTrigger>
+          <AccordionTrigger>What is NEUROSIS?</AccordionTrigger>
           <AccordionContent className="p-4">
             <ul>
               <li>
-                Невроз, психоневроз, невротическое расстройство, неврозная болезнь (от древнегреческого Neuron «нерв», от новолатинского невроз) — комплекс длительно продолжающихся функциональных психогенных расстройств. Клиническая картина таких расстройств характеризуется астеническими, настойчивыми мыслями или признаками истерии, а также временным снижением умственной и физической работоспособности.</li>
+                Neurosis, psychoneurosis, neurotic disorder, neurotic disease (from the ancient Greek Neuron “nerve”, from the New Latin neurosis) is a complex of long-term functional psychogenic disorders. The clinical picture of such disorders is characterized by asthenic, persistent thoughts or signs of hysteria, as well as a temporary decrease in mental and physical performance.
+              </li>
               <li>
-                Во всех случаях психогенными факторами являются конфликты (внутренние или внешние), воздействие ситуаций, вызывающих психологическую травму, стресс или длительное напряжение эмоционально-психической сферы психики.
-                Понятие «невроз» ввел в медицину в 1776 году шотландский врач Уильям Каллен. Значение термина неоднократно пересматривалось, но до сих пор не существует общепринятого определения. Следует также отметить, что в медицине и биологии «неврозами» называют еще различные функциональные нарушения высшей нервной системы.
+                In all cases, psychogenic factors are conflicts (internal or external), exposure to situations that cause psychological trauma, stress or prolonged tension in the emotional and mental sphere of the psyche. The concept of “neurosis” was introduced into medicine in 1776 by the Scottish physician William Cullen. The meaning of the term has been revised several times, but there is still no generally accepted definition. It should also be noted that in medicine and biology, “neuroses” are also called various functional disorders of the higher nervous system.
               </li>
             </ul>
           </AccordionContent>

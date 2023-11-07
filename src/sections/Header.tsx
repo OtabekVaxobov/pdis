@@ -2,7 +2,9 @@
 
 import * as React from "react"
 import Link from "next/link"
-
+import en from "../../public/eng.png";
+import ru from "../../public/ru.png";
+import uz from "../../public/uz.png";
 import { cn } from "@/lib/utils"
 import {
   NavigationMenu,
@@ -16,6 +18,8 @@ import {
 import { ModeToggle } from "@/components/theme/theme-provider"
 import { useState } from "react"
 import Logo from "@/components/Logo"
+import Image from "next/image"
+import { LanguageChanger } from "@/components/Lang";
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -235,8 +239,9 @@ export function Header2() {
           <li className="px-4">
             <ModeToggle />
           </li>
-        </ul>
 
+        </ul>
+        <LanguageChanger />
       </nav>
       <style>{`
       .hideMenuNav {
