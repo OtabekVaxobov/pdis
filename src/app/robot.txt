@@ -3,4 +3,4 @@ Allow: /
 Disallow: /private/
 Disallow: /admin/
 
-Sitemap: https://sirdaryo-yuksh.uz/sitemap.xml
+Sitemap: https://sirdaryo-pd.uz/sitemap.xml

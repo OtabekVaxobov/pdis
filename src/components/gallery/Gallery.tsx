@@ -1,18 +1,6 @@
 import Image from "next/image"
 import { Suspense } from "react"
 import Direktor from "../../../public/direktor.jpg";
-import Y1 from "../../../public/vrach1.jpg";
-import Y2 from "../../../public/vrach2.jpg";
-import Y3 from "../../../public/vrach3.jpg";
-import Y4 from "../../../public/vrach4.jpg";
-import Y5 from "../../../public/vrach5.jpg";
-import Y6 from "../../../public/vrach6.jpg";
-import Y7 from "../../../public/vrach7.jpg";
-import Y8 from "../../../public/vrach8.jpg";
-import Y9 from "../../../public/vrach9.jpg";
-import Y10 from "../../../public/vrach10.jpg";
-import Y11 from "../../../public/vrach11.jpg";
-import Y12 from "../../../public/vrach12.jpg";
 export default function Gallery() {
     return (
         <>
@@ -43,7 +31,7 @@ export default function Gallery() {
                             <polyline points="10 9 9 9 8 9"></polyline>
                         </svg></span>
                         <p className="text-xl font-medium text-slate-700 mt-3">
-                           Malakali mutaxassislar</p>
+                            Malakali mutaxassislar</p>
                         {/* <p className="  hidden sm:flex mt-2 text-sm text-slate-500">Know where you stand and what next to do to succeed .</p> */}
                     </div>
 
@@ -103,8 +91,8 @@ export default function Gallery() {
 }
 
 
-export function Gallery2(){
-    return(
+export function Gallery2() {
+    return (
         <>
             <div className="bg-gray-100 md:p-16 mt-20">
                 <div className="container mx-auto">
@@ -172,90 +160,19 @@ export function Gallery2(){
 }
 
 
-export function Gallery3(){
-    return(
+export function Gallery3() {
+    return (
         <>
-        <Suspense>
-            <h2 id='rahbariyat' className="text-3xl py-8">Rahbariyat</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-4 max-w-[720px]">
-                <div>
-                    <Image className="hover:opacity-75" src={Direktor} alt={""} width={250} height={250}/>
-                    <h3 className=" font-semibold">Tursunov Baxrom Sagdullayevich</h3>
-                    <p className="text-gray-500">Bosh shifokor</p>
-                    <p className="text-gray-500">Qabul vaqti 13:00-16:00</p>    
+            <Suspense>
+                <h2 id='rahbariyat' className="text-3xl py-8">Rahbariyat</h2>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-4 max-w-[720px]">
+                    <div>
+                        <Image className="hover:opacity-75" src={Direktor} alt={""} width={350} height={350} />
+                        <h3 className=" font-semibold">Xashimov Xusan Achilovich</h3>
+                        <p className="text-gray-500">Bosh shifokor</p>
+                    </div>
                 </div>
-            
-                <div>
-                    <Image className="hover:opacity-75" src={Y1} alt={""} width={250} height={250}/>
-                    <h3 className=" font-semibold">Mamatkulov Qaxramon Sharopboyevich</h3>
-                    <p className="text-gray-500">Gepatolog</p>
-                    <p className="text-gray-500">Qabul vaqti 08:00-14:00</p>
-                </div>
-            <div>
-                 <Image className="hover:opacity-75" src={Y2} alt={""} width={250} height={250}/>
-                 <h3 className=" font-semibold">Boyoturayev Sherzod</h3>
-                    <text><br/></text>
-            </div>
-             <div>
-                 <Image className="hover:opacity-75" src={Y3} alt={""} width={250} height={250}/>
-                  <h3 className=" font-semibold">Xomidov Faxriddin</h3>
-                    <p className="text-gray-500"></p>
-            </div>
-             <div>
-                <Image className="hover:opacity-75" src={Y4} alt={""} width={225} height={225}/>
-                 <h3 className=" font-semibold">Asrorkulov Umedjon</h3>
-                    <p className="text-gray-500"></p>
-            </div>
-             <div>
-                <Image className="hover:opacity-75" src={Y5} alt={""} width={250} height={250}/>
-                 <h3 className=" font-semibold">Salomatova Sanobar Shodmonovna</h3>
-                    <p className="text-gray-500"></p>
-            </div>
-            <div>
-                <Image className="hover:opacity-75" src={Y6} alt={""} width={250} height={250}/>
-                 <h3 className=" font-semibold">Mamatkulov Safarali Ashirkulovich</h3>
-                    <p className="text-gray-500"></p>
-            </div>
-           
-           <div>
-                <Image className="hover:opacity-75" src={Y7} alt={""} width={250} height={250}/>
-                 <h3 className=" font-semibold">Allanazaro Sayfulla Suyarkulovich</h3>
-                    <p className="text-gray-500"></p>
-            </div>
-           
-           <div>
-                <Image className="hover:opacity-75" src={Y8} alt={""} width={250} height={250}/>
-                 <h3 className=" font-semibold">Jurayeva Manzura Nabiyevna</h3>
-                    <p className="text-gray-500"></p>
-            </div>
-            <div>
-                <Image className="hover:opacity-75" src={Y9} alt={""} width={250} height={250}/>
-                 <h3 className=" font-semibold">Achildiyev Abduvali Soibnazarovich</h3>
-                    <p className="text-gray-500"></p>
-            </div>
-            <div>
-                <Image className="hover:opacity-75" src={Y10} alt={""} width={250} height={250}/>
-                 <h3 className=" font-semibold">Berdiyev Muxammad koraboyevich</h3>
-                    <p className="text-gray-500"></p>
-            </div>
-            <div>
-                <Image className="hover:opacity-75" src={Y11} alt={""} width={250} height={250}/>
-                 <h3 className=" font-semibold">Shavkat jurayev Kurbonovich
-</h3>
-                    <p className="text-gray-500">pediatr infeksionist</p>
-                    <p className="text-gray-500">Qabul vaqti 14:00-16:00</p>  
-            </div>
-           <div>
-                <Image className="hover:opacity-75" src={Y12} alt={""} width={250} height={250}/>
-                 <h3 className=" font-semibold">Mirzayeva Maxbuba Chuliboyevna</h3>
-                    <p className="text-gray-500"></p>
-            </div>
-           
-           
-            
-            
-            </div>
-        </Suspense>
+            </Suspense>
         </>
     )
 }
