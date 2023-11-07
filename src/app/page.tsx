@@ -10,10 +10,13 @@ import Link from "next/link";
 import { Questions } from "@/components/Questions";
 import { About } from "@/components/About";
 import Direktor from "../../public/direktor.jpg";
+import { Header2 } from "@/sections/Header";
+import { Footer2 } from "@/sections/Footer";
 
 export default function Home() {
   return (
     <>
+      <Header2 />
       <div className=" md:flex w-full bg-gradient-to-r from-sky-500 to-indigo-500 p-4 py-20 sm:px-20 ">
         <span></span>
       </div>
@@ -71,6 +74,7 @@ export default function Home() {
           </Link>
         </section>
       </main>
+      <Footer2 />
     </>
 
   )
